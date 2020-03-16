@@ -1,0 +1,188 @@
+body {
+    text-align: center;
+    background-color: rgb(160, 155, 155);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    padding: 10px;
+    margin: 10px;
+}
+img
+{
+    align-content: center;
+    max-height: 250px;
+    max-width: 280px;
+    overflow: unset;
+    padding-top: 40px;
+    
+}
+
+ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+header{
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 60px;
+    min-height: 60px;
+    border-bottom: dimgrey  3px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+header #boxes{
+    float: left;
+    align-content: center;
+    list-style: none;
+    color: gray ;
+    font-weight: bold;
+}
+
+header #boxes h1{
+    margin: 0px;
+    list-style: none;
+}
+
+header nav{
+    float: right;
+    margin-top: 8px;
+    list-style: none;
+}
+
+header .highlight, header .current a{
+    color: darkcyan;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: gray ;
+    font-weight: bold;
+}
+
+li {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+}
+
+#showcase{
+    min-height: auto;
+    background-image:url("./pics.jpg/sweepstakes.png")no-repeat;
+}
+
+#showcase h1{
+    margin-top: auto;
+    font-size: 30px;
+    margin-bottom: auto;
+}
+
+#showcase p{
+    font-size: 12px;
+}
+
+#branding{
+    padding: 12px;
+    color: aqua;
+    background: rgb(104, 116, 116);
+}
+
+#branding h1{
+    float: left;
+}
+
+#branding form{
+    float: right;
+    margin-top: 12px;
+
+}
+
+#branding input{
+
+    padding: 6px;
+    height: 20px;
+    width: 225px;
+}
+.button_1{
+    height: 40px;
+    background-color: cadetblue;
+    border: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+}
+
+.button_2{
+    height: 40px;
+    background-color: rgb(5, 166, 172);
+    border: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+}
+
+#boxes{
+    margin-top: 30px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 30px;
+}
+
+#boxes .box img{
+    width: 90px;
+
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: darkgrey;
+    text-align: center;
+    
+}
